@@ -1,0 +1,42 @@
+Problem 1
+	Part (a):
+	1. Looking up information relevant to the course online
+	3. Talking to my classmates about the problems
+	5. Asking the course staff for help
+	6. Sitting next to my classmate and coding together as a team or 
+	with significant conversation about approach. (as long as work is individual)
+
+	Part (b):
+	emacs, Eclipse, vim, microsoft visual studio, Sublime
+
+	Part (c):
+	Each student can use up to 2 of their 4 grace days on a single assignment
+
+	Part (d):
+	Fill in a late submission Google form.
+
+Problem 2:
+	Part (a):
+	3. Terminal (Mac or Linux)
+
+	Part(b):
+	1. git add hw1q2b.cpp
+	2. git log -p -3
+
+	Part(c):
+	It will commit the file changes and add it to the respository history.
+	However, it will not automatically push it to the github servers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+1.
+a) README.md - unmodified
+b) README.md - modified
+   fun_problem.txt - untracked
+c) README.md - modified
+   fun_problem.txt - unmodified
+d) README.md - modified
+   fun_problem.txt - modified
+e) README.md - modified
+   fun_problem.txt - unmodified
+   fun_problem.txt is empty because checkout makes the file revert to its last commit
+f) README.md is both staged for commit and not staged for commit. This is because I
+   added the changes with git add, but then modified the file again afterwards. Git
+   will only commit up to where I did my git add and will not stage whatever changes
+   I made afterwards ("echo 'Fancy git move' >> README.md").
+
+
+6.
+bool empty() const: theta(1)
+	- just returns int variable size_
+
+void push(const double& val): theta(1)
+	- constant time since I'm always inserting at head
+	- since it is a linked list, I don't have to move other items, only head
+	  and its next value;
+
+double const& top() const: theta(1)
+	- because I chose to use head instead of tail, the helper function
+	  getNodeAt(int loc) will always iterated only once to return the item
+	  at location 0.
+
+void pop(): theta(1)
+	- because the stack is implemented with a linked list, removing the head happens 
+	  in constant time.
+

@@ -1,0 +1,4 @@
+Problem 2
+	1) Yes, it is a valid min heap.
+	2) Not valid min heap. 16 and 5 are out of place.
+	3) Yes, it is a valid min heap.
