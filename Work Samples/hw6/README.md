@@ -5,6 +5,7 @@ In order to compile heapTest and Puzzle just type 'make'
 
 Program 1
 heap.h contains an implementation of a heap data structure that uses a passed in Comparator in order to sort nodes
+
 Run ./heapTest (for heap test code)
 
 Program 2
